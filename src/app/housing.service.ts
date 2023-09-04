@@ -1,6 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HousingLocation } from './housinglocation';
 
+/*
+@Injectable - This is a TypeScript decorator provided by Angular. 
+It tells Angular that the class is a service that can be injected into other parts of your application.
+
+In summary, @Injectable({ providedIn: 'root' }) is a way to declare a service in Angular that is provided as a singleton at the root level, 
+making it available for injection throughout the application.
+*/
+
 @Injectable({
   providedIn: 'root'
 })
